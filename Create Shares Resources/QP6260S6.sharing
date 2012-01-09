@@ -1,0 +1,74 @@
+
+			List of Share Points
+name:		2011
+path:		/Shared Items/Data/2011
+	afp:	{
+    		name:	2011
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	2011
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	2011
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		2012
+path:		/Shared Items/Data/2012
+	afp:	{
+    		name:	2012
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	2012
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	2012
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	1
+    		oplocks:	1
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		Administrator's Public Folder
+path:		/Users/admin/Public
+	afp:	{
+    		name:	Administrator's Public Folder
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Administrator's Public Folder
+    		shared:	0
+    		guest access:	0
+	}
+	smb:	{
+    		name:	Administrator's Public Folder
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+

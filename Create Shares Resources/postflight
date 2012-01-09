@@ -1,0 +1,26 @@
+#!/bin/bash
+declare -x PKGBUNDLE="$1"	# Full path to the install package.
+declare -x DSTROOT="$3"		# Installation Volume of mount point.
+declare -x SYSROOT="$4"		# The root directory for the system.
+
+declare -x PKGRESOURCES="${PKGBUNDLE:?}/Contents/Resources"
+
+declare -x awk="/usr/bin/awk"
+declare -x ioreg="/usr/sbin/ioreg"
+declare -x shareimport="$PKGRESOURCES/shareimport"
+declare -x sharing="/usr/sbin/sharing"
+
+IFS=$'\n'
+declare -x HW_SERIAL="$($ioreg -l |
+	$awk -F'\"' '/IOPlatformSerialNumber/{print substr($4,1,8);exit}')"
+
+echo "Removing Default Share Points"
+$sharing -r Users
+$sharing -r Groups
+$sharing -r Public
+	
+$shareimport "$PKGRESOURCES/$HW_SERIAL.sharing"
+
+
+exit 0
+

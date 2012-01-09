@@ -1,0 +1,27 @@
+#!/bin/bash
+declare -x REPLACE='Shared Items'
+declare -x VALUE='Volumes'
+
+declare -x awk="/usr/bin/awk"
+declare -x sed="/usr/bin/sed"
+declare -x sharing="/usr/sbin/sharing"
+
+
+IFS=$'\n'
+for LINE in `$awk '{ print $0 }' "$1" | $awk '/path/'` ; do
+	
+	declare SHARE_PATH="$(printf "$LINE" |
+		$awk -F ":" '{sub(/^[ \t]*/,"",$NF); print $NF}')"
+	echo "Processing old share: $SHARE_PATH"
+	
+	declare NEW_SHARE_PATH="$(echo "$SHARE_PATH" |
+		$sed "s@$REPLACE@$VALUE@")"
+	echo "Resolved new share path: $NEW_SHARE_PATH"
+	
+	# Test to see if the new directory actually exists
+	if [ ! -d "$NEW_SHARE_PATH" ] ; then
+		echo "Warning: $NEW_SHARE_PATH does not exist"
+	else
+		$sharing -a "$NEW_SHARE_PATH"
+	fi
+done

@@ -1,0 +1,50 @@
+
+			List of Share Points
+name:		Administrator's Public Folder
+path:		/Users/admin/Public
+	afp:	{
+    		name:	Administrator's Public Folder
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Administrator's Public Folder
+    		shared:	0
+    		guest access:	0
+	}
+	smb:	{
+    		name:	Administrator's Public Folder
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		Teachers
+path:		/Shared Items/Data/Teachers
+	afp:	{
+    		name:	Teachers
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Teachers
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	Teachers
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+

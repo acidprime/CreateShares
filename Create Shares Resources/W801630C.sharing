@@ -1,0 +1,242 @@
+
+			List of Share Points
+name:		Becki Bass Classes
+path:		/Shared Items/Data/Becki Bass Classes
+	afp:	{
+    		name:	Becki Bass Classes
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Becki Bass Classes
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	Becki Bass Classes
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	1
+    		oplocks:	1
+    		strict locking:	1
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		Images
+path:		/Images
+	afp:	{
+    		name:	Images
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Images
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	Images
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	1
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		Journalism
+path:		/Shared Items/Data/Journalism
+	afp:	{
+    		name:	Journalism
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Journalism
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	Journalism
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	1
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		LJones Art Classes
+path:		/Shared Items/Data/LJones Art Classes
+	afp:	{
+    		name:	LJones Art Classes
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	LJones Art Classes
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	LJones Art Classes
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	1
+    		oplocks:	1
+    		strict locking:	1
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		Moyer Trial
+path:		/Shared Items/Data/Moyer Trial
+	afp:	{
+    		name:	Moyer Trial
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Moyer Trial
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	Moyer Trial
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	1
+    		oplocks:	1
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		NetBootClients0
+path:		/Library/NetBoot/NetBootClients0
+	afp:	{
+    		name:	NetBootClients0
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	NetBootClients0
+    		shared:	0
+    		guest access:	1
+	}
+	smb:	{
+    		name:	NetBootClients0
+    		shared:	0
+    		guest access:	0
+    		inherit perms:	1
+    		oplocks:	1
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		NetBootSP0
+path:		/Library/NetBoot/NetBootSP0
+	afp:	{
+    		name:	NetBootSP0
+    		shared:	1
+    		guest access:	0
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	(null)
+    		shared:	0
+    		guest access:	0
+	}
+	smb:	{
+    		name:	(null)
+    		shared:	0
+    		guest access:	0
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	0
+    		directory mask:	0
+    		create mask:	0
+	}
+
+name:		Orange R Data
+path:		/Shared Items/Data/Orange R Data
+	afp:	{
+    		name:	Orange R Data
+    		shared:	1
+    		guest access:	0
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Orange R Data
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	Orange R Data
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	1
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		Parkhurst House Project
+path:		/Shared Items/Data/Parkhurst House Project
+	afp:	{
+    		name:	Parkhurst House Project
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Parkhurst House Project
+    		shared:	0
+    		guest access:	0
+	}
+	smb:	{
+    		name:	Parkhurst House Project
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		Yearbook
+path:		/Shared Items/Data/Yearbook
+	afp:	{
+    		name:	Yearbook
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Yearbook
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	Yearbook
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	1
+    		directory mask:	493
+    		create mask:	420
+	}
+

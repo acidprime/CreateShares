@@ -1,0 +1,98 @@
+
+			List of Share Points
+name:		2010
+path:		/Shared Items/Data/2010
+	afp:	{
+    		name:	2010
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	2010
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	2010
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		2013
+path:		/Shared Items/Data/2013
+	afp:	{
+    		name:	2013
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	2013
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	2013
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	1
+    		oplocks:	1
+    		strict locking:	1
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		Administrator's Public Folder
+path:		/Users/admin/Public
+	afp:	{
+    		name:	Administrator's Public Folder
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Administrator's Public Folder
+    		shared:	0
+    		guest access:	0
+	}
+	smb:	{
+    		name:	Administrator's Public Folder
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+    		oplocks:	0
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+
+name:		Teacher Files for Students
+path:		/Teacher Files for Students
+	afp:	{
+    		name:	Teacher Files for Students
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	0
+	}
+	ftp:	{
+    		name:	Teacher Files for Students
+    		shared:	1
+    		guest access:	1
+	}
+	smb:	{
+    		name:	Teacher Files for Students
+    		shared:	1
+    		guest access:	1
+    		inherit perms:	1
+    		oplocks:	1
+    		strict locking:	0
+    		directory mask:	493
+    		create mask:	420
+	}
+
